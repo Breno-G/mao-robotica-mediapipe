@@ -1,7 +1,11 @@
 from pyfirmata import Arduino,SERVO
 import time
+import inspect
 
-board = Arduino('COM3')
+if not hasattr(inspect, 'getargspec'):
+    inspect.getargspec = inspect.getfullargspec
+
+board = Arduino('/dev/ttyUSB0')
 pin1 = 10
 pin2 = 9
 pin3 = 8
