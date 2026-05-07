@@ -1,9 +1,5 @@
 from pyfirmata import Arduino,SERVO
 import time
-import inspect
-
-if not hasattr(inspect, 'getargspec'):
-    inspect.getargspec = inspect.getfullargspec
 
 board = Arduino('/dev/ttyUSB0')
 pin1 = 10
@@ -64,4 +60,3 @@ def testeTodos():
     time.sleep(1)
     rotateServo(pin5,0)
     time.sleep(2)
-

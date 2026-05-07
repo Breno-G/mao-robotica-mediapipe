@@ -33,26 +33,27 @@ rotateServo(pin4,0)
 rotateServo(pin5,0)
 time.sleep(1)
 
+# polegar
 rotateServo(pin1,150)
 time.sleep(1)
 rotateServo(pin1,0)
 time.sleep(1)
-
+# indicador
 rotateServo(pin2,130)
 time.sleep(1)
 rotateServo(pin2,0)
 time.sleep(1)
-
+# medio
 rotateServo(pin3,130)
 time.sleep(1)
 rotateServo(pin3,0)
 time.sleep(1)
-
+# anelar
 rotateServo(pin4,130)
 time.sleep(1)
 rotateServo(pin4,0)
 time.sleep(1)
-
+# minimo
 rotateServo(pin5,130)
 time.sleep(1)
 rotateServo(pin5,0)
