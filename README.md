@@ -134,3 +134,5 @@ python main.py
 # 👨‍💻 Autor
 
 Desenvolvido para fins de estudo e experimentação em visão computacional e robótica.
+Código baseado no repositório do Wellington Isac Souza
+Repositório: https://github.com/WellingtonDev25/mao-robotica-mediapipe
