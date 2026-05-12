@@ -2,8 +2,6 @@ import cv2
 import mediapipe as mp
 import servo_braco3d as mao
 
-
-
 cap = cv2.VideoCapture(0, cv2.CAP_V4L2)
 
 cap.set(3,640)

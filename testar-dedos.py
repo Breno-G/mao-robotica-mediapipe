@@ -1,11 +1,5 @@
 from pyfirmata import Arduino,SERVO
 import time
-import inspect
-
-
-if not hasattr(inspect, 'getargspec'):
-    inspect.getargspec = inspect.getfullargspec
-
 
 board = Arduino('/dev/ttyUSB0')
 
